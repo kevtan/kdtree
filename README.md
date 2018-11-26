@@ -1,4 +1,4 @@
-# KD Ttree
+# KD Tree
 A kd-tree is a generalization of a binary search tree that stores points in k-dimensional space. That is, you could use a kd-tree to store a collection of points in the Cartesian plane, in three-dimensional space, etc. This program implements a k-dimensional binary search tree and also implements the k-nearest-neighbors search algorithm, which is an example of a **similar** search as opposed to the traditional **exact** search.
 
 ## Partition Dimension
