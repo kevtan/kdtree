@@ -16,4 +16,4 @@ The similarity search is implemented with a **bounded** priority queue (a queuu)
 It makes this decision by seeing which subtree the target point would be located in, according to the relevant partition dimension. It then repeats this process. It will not go into the other subtree unless either (1) the bounded priority queue is not yet full or (2) the distance from the target point to the furthest point in the initially chosen subtree is greater than the partition distance from the partition hyperplane to the point. In the second case, we couldn't be sure that these isn't a better point located in the other subtree. 
 
 ## Credits
-This project was part of CS 106L (Standard C++ Programming) taught by Ali Malik in 2018 at Stanford University.
+This project was part of CS 106L (Standard C++ Programming) taught by Ali Malik in 2018 at Stanford University. Starter code written by Professor Keith Scwharz of Stanford University. 
